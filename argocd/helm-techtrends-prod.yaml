@@ -9,9 +9,14 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    helm:
-      valueFiles:
-        - values-prod.yaml
-    path: "../helm"
-    repoURL: git@github.com:lshrihari/ucnaa_project1.git
+    repoURL: git@github.com:lshrihari/ucnaa_project1.git 
     targetRevision: HEAD
+    path: kubernetes
+#    path: helm
+#    helm:
+#      valueFiles:
+#      - values-prod.yaml
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
