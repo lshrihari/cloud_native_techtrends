@@ -25,8 +25,8 @@ resources:
 containerPort: 3111
 
 livenessProbe:
-  path: "/healthz"
+  path: /healthz
 
 readinessProbe:
-  path: "/healthz"
+  path: /healthz
   

@@ -33,6 +33,6 @@ spec:
           httpGet:
             path: {{ .Values.readinessProbe.path }}
             port: {{ .Values.containerPort }}
-         resources:
+        resources:
 {{ toYaml .Values.resources | indent 12 }}
 status: {}
