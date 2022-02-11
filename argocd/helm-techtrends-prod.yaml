@@ -11,11 +11,11 @@ spec:
   source:
     repoURL: git@github.com:lshrihari/ucnaa_project1.git 
     targetRevision: HEAD
-    path: kubernetes
-#    path: helm
-#    helm:
-#      valueFiles:
-#      - values-prod.yaml
+    #    path: kubernetes # comment the next 4 lines + uncomment this line to identify helm chart issues
+    path: helm
+    helm:
+      valueFiles:
+      - values-prod.yaml
   syncPolicy:
     automated:
       prune: true
