@@ -1,6 +1,6 @@
 # TechTrends project
 
-TechTrends is a Flask / Python / SQLite web news sharing application. Objective of this project is to demonstrate cloud-native development fundamentals. Starter code for this project has been provided by Udacity at this [link](https://github.com/udacity/nd064_course_1/tree/main/project/techtrends). This project demonstrates the following; screenshots attached relate to the number ordering provided below -
+TechTrends is a Flask / Python / SQLite web-based news sharing application. Objective of this project is to demonstrate cloud-native development fundamentals. Starter code for this project has been provided by Udacity at this [link](https://github.com/udacity/nd064_course_1/tree/main/project/techtrends). This project demonstrates the following; screenshots attached relate to the number ordering provided below -
 
 1. Best practices in application development - maintaining `healthz` and `metrics` endpoints and providing a logging mechanism.
 
