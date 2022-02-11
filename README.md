@@ -15,3 +15,5 @@ TechTrends is a Flask / Python / SQLite web-based news sharing application. Obje
 6. Using ArgoCD to establish a GitOps based CD mechanism that uses the helm charts defined above, to deploy separate staging and production applications, currently (but not necessarily) in the same Kubernetes cluster.
 
 All of this has been done in a `vagrant` and `VirtualBox` based OpenSuse Leap VM with static IP `192.168.56.0`
+
+The project is accessible from - [Github link](https://github.com/lshrihari/ucnaa_project1)
