@@ -9,12 +9,13 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
+    path: helm
+    repoURL: git@github.com:lshrihari/ucnaa_project1.git 
+    targetRevision: HEAD
     helm:
       valueFiles:
         - values-staging.yaml
-    path: helm
-    repoURL: git@github.com:lshrihari/ucnaa_project1.git
-    targetRevision: HEAD
-    directory:
-      recurse: true
-  syncPolicy: {}
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
