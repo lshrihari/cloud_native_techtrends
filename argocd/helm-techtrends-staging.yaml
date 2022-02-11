@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    repoURL: https://github.com/lshrihari/ucnaa_project1 
+    repoURL: git@github.com:lshrihari/ucnaa_project1.git 
     path: helm
     targetRevision: HEAD
     path: helm
