@@ -10,12 +10,12 @@ spec:
   project: default
   source:
     repoURL: git@github.com:lshrihari/ucnaa_project1.git 
-    path: helm
     targetRevision: HEAD
-    path: helm
-    helm:
-      valueFiles:
-      - values-staging.yaml
+    path: kubernetes
+#    path: helm
+#    helm:
+#      valueFiles:
+#      - values-staging.yaml
   syncPolicy:
     automated:
       prune: true
