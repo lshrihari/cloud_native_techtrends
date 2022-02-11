@@ -9,12 +9,13 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
+    repoURL: https://github.com/lshrihari/ucnaa_project1 
     path: helm
-    repoURL: git@github.com:lshrihari/ucnaa_project1.git 
     targetRevision: HEAD
+    path: helm
     helm:
       valueFiles:
-        - values-staging.yaml
+      - values-staging.yaml
   syncPolicy:
     automated:
       prune: true
