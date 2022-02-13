@@ -5,7 +5,7 @@ service:
   port: 4111
   protocol: TCP
   targetPort: 3111
-  type: NodePort
+  type: ClusterIP
 
 image:
   repository: shriharivasudevan/techtrends
