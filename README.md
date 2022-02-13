@@ -16,4 +16,6 @@ TechTrends is a Flask / Python / SQLite web-based news sharing application. Obje
 
 All of this has been done in a `vagrant` and `VirtualBox` based OpenSuse Leap VM with static IP `192.168.56.0`
 
+To access the argocd-server from an external (e.g., host of the VM) system, a NodePort service is used. To access the application page also, from outside the VM, it is also associated with a NodePort service.
+
 The project is accessible from - [Github link](https://github.com/lshrihari/ucnaa_project1)
