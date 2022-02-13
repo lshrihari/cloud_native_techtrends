@@ -6,6 +6,7 @@ service:
   protocol: TCP
   targetPort: 3111
   type: NodePort
+  nodeport: 30009
 
 image:
   repository: shriharivasudevan/techtrends
