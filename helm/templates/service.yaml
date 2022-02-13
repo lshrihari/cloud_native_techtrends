@@ -11,6 +11,10 @@ spec:
   - port: {{ .Values.service.port }}
     protocol: {{ .Values.service.protocol }} 
     targetPort: {{ .Values.service.targetPort }}
+<<<<<<< HEAD
+=======
+    nodePort: {{ .Values.service.port }}
+>>>>>>> parent of 8cf085e... nodeport service
   selector:
     app: techtrends
   type: {{ .Values.service.type }}
